@@ -202,33 +202,22 @@ You can suffer damage in many ways. These are the most common:
   the roll, but at the risk of suffering even more stress if you get any
   on the re-roll.
 
-  Factor Stress
-
-  ***
-
-  Being threatened with violence 1
-  Seeing a friendly character suffer a lethal critical injury 1
-  Seeing something unnatural 1
-  Seeing a friendly character die 2
-  Being interrogated 2
-  Facing a frightening supernatural being 2
-  Witnessing a massacre 3
-  Being tortured 3
-  Witnessing a horrible supernatural event 3
-
-  : Stressful Situations {#stressful-situations}
+  | FACTOR                                                      | STRESS |
+  | ----------------------------------------------------------- | ------ |
+  | Being threatened with violence                              | 1      |
+  | Seeing a friendly character suffer a lethal critical injury | 2      |
+  | Seeing something unnatural                                  | 2      |
+  | Seeing a friendly character die                             | 3      |
+  | Being interrogated                                          | 3      |
+  | Facing a frightening supernatural being                     | 3      |
+  | Witnessing a massacre                                       | 4      |
+  | Being tortured                                              | 4      |
 
 #### Broken
 
-Your PC can be broken by [damage or stress](#damage-and-stress). You are
-broken if [Health](#health) or [Resolve](#resolve) are reduced to zero.
-basically means you are taken out of action, and you might risk even
-lethal injuries. When broken, you can't perform any actions or make
-rolls.
+Your PC can be broken by [damage or stress](#damage-and-stress). You are broken if [Health](#health) or [Resolve](#resolve) are reduced to zero. This basically means you are taken out of action, and you might risk even lethal injuries. When broken, you can't perform any actions or make rolls.
 
-You can't go below zero in [Health](#health) or [Resolve](#resolve). If
-you suffer further damage, you may suffer an additional [critical
-injury](#critical-injuries) however.
+You can't go below zero in [Health](#health) or [Resolve](#resolve). If you suffer further damage, you may suffer an additional [critical injury](#critical-injuries) however.
 
 ### Critical Injuries
 
@@ -263,3 +252,7 @@ see what it is.
 | ------------ | -------- | ----- | ----------------------------------- |
 | Libre Noctus | 20 GOLD  | 2     | Improves [necromancy](#necromancy). |
 | Necronomicon | 100 GOLD | 3     | Improves [necromancy](#necromancy). |
+
+## Appendix 1: Design Notes
+
+For simplicity, [Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages must increase as well.
