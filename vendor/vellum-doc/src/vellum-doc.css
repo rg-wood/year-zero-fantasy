@@ -1,0 +1,112 @@
+:host {
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  --default-index-width: 300px;
+  --floating-index-layer: 10;
+  --toggle-layer: 20;
+}
+
+#drawer {
+  position: sticky;
+  left: 0;
+  top: 0;
+
+  --min-width: 0;
+  --max-width: var(--index-width, var(--default-index-width));
+}
+
+@media (max-width: 700px) {
+  #drawer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: var(--floating-index-layer);
+  }
+}
+
+#toggle {
+  visibility: hidden;
+  position: fixed;
+  bottom: 1.5em;
+  left: 1.5em;
+  height: 50px;
+  width: 50px;
+  z-index: var(--toggle-layer);
+}
+
+#toggle.show {
+  animation: fade-in 0.5s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#toggle.hide {
+  animation: fade-out 0.5s forwards;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+#index {
+  border-right: 1px solid;
+  padding-bottom: 1em;
+  background-color: white;
+}
+
+.scrollable {
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow-y: scroll;
+  position: sticky;
+}
+
+#index h1 {
+  font-style: inherit;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  line-height: 1em;
+  text-align: center;
+}
+
+#index h2 {
+  font-style: inherit;
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+#index h3 {
+  font-style: inherit;
+  font-size: 1em;
+  padding-left: 1.4em;
+}
+
+#index h4 {
+  font-style: inherit;
+  font-size: 0.9em;
+  padding-left: 3em;
+}
+
+#index a {
+  color: inherit;
+  text-decoration: inherit;
+}

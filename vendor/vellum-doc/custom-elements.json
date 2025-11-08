@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/vellum-doc.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "VellumDocument",
+          "members": [
+            {
+              "kind": "field",
+              "name": "anchors",
+              "type": {
+                "text": "boolean | undefined"
+              },
+              "attribute": "anchors"
+            },
+            {
+              "kind": "field",
+              "name": "slugify",
+              "privacy": "private"
+            },
+            {
+              "kind": "field",
+              "name": "headings",
+              "type": {
+                "text": "HTMLElement[]"
+              },
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "drawer",
+              "type": {
+                "text": "LionDrawer | null"
+              },
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "toggle",
+              "type": {
+                "text": "HTMLElement | null"
+              },
+              "readonly": true
+            },
+            {
+              "kind": "method",
+              "name": "renderIndex",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "labelHeaders"
+            },
+            {
+              "kind": "method",
+              "name": "anchorHeadings"
+            },
+            {
+              "kind": "method",
+              "name": "exportIndexHeadingParts"
+            },
+            {
+              "kind": "method",
+              "name": "enableMobileIndexVisibility"
+            },
+            {
+              "kind": "method",
+              "name": "toggleIndex"
+            },
+            {
+              "kind": "method",
+              "name": "hideToggle"
+            },
+            {
+              "kind": "method",
+              "name": "showToggle"
+            },
+            {
+              "kind": "method",
+              "name": "checkIndexVisibility"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "anchors",
+              "type": {
+                "text": "boolean | undefined"
+              },
+              "fieldName": "anchors"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "vellum-doc",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "VellumDocument",
+          "declaration": {
+            "name": "VellumDocument",
+            "module": "src/vellum-doc.ts"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "vellum-doc",
+          "declaration": {
+            "name": "VellumDocument",
+            "module": "src/vellum-doc.ts"
+          }
+        }
+      ]
+    }
+  ]
+}
