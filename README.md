@@ -292,8 +292,34 @@ see what it is.
 | Libre Noctus | 20 GOLD  | 2     | Improves [necromancy](#necromancy). |
 | Necronomicon | 100 GOLD | 3     | Improves [necromancy](#necromancy). |
 
-## Appendix 1: Design Notes
+## Appendices
 
-### Simplifications
+### Hacking
+
+Requires [Node.js](http://nodejs.org/). To set-up your environment execute:
+
+    $ npm i
+
+To build:
+
+    $ npm run build
+
+To lint and test:
+
+    $ npm test
+
+To run:
+
+    $ npm start
+
+And in a separate window run:
+
+    $ npm run build:watch
+
+### Design Notes
+
+This section describes the variouis choices and deviations I made writing Year Zero Fantasy, based on material from the original [Year Zero Engine SRD](https://freeleaguepublishing.com/wp-content/uploads/2023/11/YZE-Standard-Reference-Document.pdf). It may be of use to those hacking this system.
+
+#### Simplifications
 
 [Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.
