@@ -1,3 +1,482 @@
 # Year Zero Fantasy
 
-Simple fantasy hack of the Year Zero Engine
+Year Zero Fantasy is a hack of the Year Zero Engine for fantasy roleplaying, focussing on simplicity while building on top of the original fast, accessible and story driven system.
+
+## Player Characters
+
+How you create your player character is explained in detail in this
+chapter. The summary below is a helpful overview. Grab a character
+sheet, a pencil, and follow these steps:
+
+1.  Choose your [profession](#professions).
+2.  Determine your [attributes](#attributes).
+3.  Determine your [talents](#talents).
+4.  Determine your [Health](#health) and [Resolve](#resolve).
+5.  Determine your personality traits.
+6.  Pick your gear.
+7.  Choose a name.
+
+### Determine Attributes
+
+Your character has four attributes that indicate your basic physical and
+mental capabilities. Your attributes are used when you are
+[rolling](#rolling) to perform actions in the game, and also determine
+how much [damage and stress](#damage-and-stress) can withstand before
+you become [broken](#broken).
+
+Distribute 14 points across your attributes. You can assign no less than
+2 and no more than 5 points to any attribute.
+
+- **STRENGTH:** Raw muscle power and brawn.
+- **AGILITY:** Body control, speed, and motor skills.
+- **WITS:** Sensory perception, intelligence, and sanity.
+- **EMPATHY:** Personal charisma and ability to manipulate others.
+
+| Attribute | Description   |
+| --------- | ------------- |
+| 5         | Extraordinary |
+| 4         | Capable       |
+| 3         | Average       |
+| 2         | Below Average |
+| 1         | Feeble        |
+
+### Determine Talents
+
+Your [talents](#talents) are the knowledge and abilities you have acquired during
+your life. They are important, as they determine, along with your
+[attributes](#attributes), how effectively you can perform certain
+actions in the game.
+
+Talents give you +1 to +3 bonus dice to your [base dice
+pool](#base-dice), depending on their level. Some talents may give you
+other benefits, which are listed in their descriptions.
+
+You can distribute 5 points across your starting talents. No talent can start above level 2.
+
+### Health
+
+Your starting Health equals your Strength and Agility scores.
+
+### Resolve
+
+Your starting Resolve equals your Wits and Empathy scores.
+
+### Experience
+
+The things you learn during the game are measured in Experience Points (XP). You receive XP after the end of each game session. Talk it through and let the whole group discuss what has happened. For each of the below questions that you can reply “yes” to, you get one XP:
+
+- Did you participate in the game session?
+- Did you explore a new location?
+- Did you defeat one or more dangerous adversaries?
+- Did you overcome an obstacle without using force?
+- Did you act according to your [weakness](#weaknesses) / dark secret / big dream / relationships?
+- Did you perform another extraordinary action of some kind?
+
+The GM has the final word when it comes to how much XP each character should get.
+
+You can use your XP to improve your [talents](#talents), or to learn new ones. You can only spend XP when your PC gets a chance to rest, or between game sessions.
+
+To increase a talent level by one step costs a number of XP indicated by the table below. You can only increase a talent level one step at a time. Learning a new talent costs 5 XP.
+
+| Talent Level | Cost  |
+| ------------ | ----- |
+| 1            | 5 XP  |
+| 2            | 10 XP |
+| 3            | 15 XP |
+
+## Professions
+
+### Fighter
+
+**Talents:** [Defender](#defender), [Tough](#tough)
+
+### Priest
+
+### Rogue
+
+### Sorcerer
+
+**Talents:** [Necromancy](#necromancy).
+
+## Talents
+
+### Combat Talents
+
+#### Defender
+
+You gain a bonus equal to the level of this talent to defend allies
+within SHORT distance of you.
+
+#### True Grit
+
+Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
+
+#### Tough
+
+Your maximum [Health](#health) score is increased by 1 per the level of this talent.
+
+### Magic Talents
+
+#### Necromancer
+
+You gain a bonus equal to the level of this talent to speak with the
+undead. Additionally, you can use WITS to sense the presence of the
+undead. Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll.
+
+## Rolling
+
+Roleplaying is a conversation. The GM describes the scene, you describe
+how your PCs behave, the GM describes how any NPCs react, you reply, and
+it goes back and forth. But sooner or later, a decisive situation will
+arise, a point of no return, a conflict that conversation alone cannot
+resolve. Then it's time to break out the dice.
+
+As a rule, you only have one chance to succeed with any action. Once you have rolled the dice – and pushed the roll – you may not roll again to achieve the same goal. You need to try something different or wait until the circumstances have changed in a substantial way. Or let another player character try. This rule does not apply to combat, where you can attack the same enemy multiple times.
+
+### Base Dice
+
+To roll, grab a number of six-sided dice equal to the most relevant
+attribute. These are your base dice. Then roll all the dice together.
+
+SUCCESS: To succeed with your action, you must roll at least one 6. A 6
+is called a success.If you roll several 6s, you get several successes.
+
+NO TALENT? If you don't have a relevant talent for the particalar action
+you want to perform, you can roll anyway -- simply roll the base dice
+for your attribute alone.
+
+### Gear Dice
+
+Useful gear can give you extra dice to roll, called a gear bonus.
+
+For every bane (1) you roll on your base dice from gear when pushing,
+the item's gear bonus is decreased by one. It simply doesn't work as
+well anymore. If the gear bonus reaches zero, the item is broken and
+cannot be used. The gear bonus of an item can be reduced by external
+damage as well.
+
+### Modifiers
+
+Sometimes, external factors help you to succeed. Such modifiers will
+give you additional base dice to roll. Other times, something hampers
+your action. This removes base dice from your pool. You can get such
+modifiers to skill rolls in several different ways: talents, the
+difficulty of the action itself, and help from others.
+
+A +1 modifier means you roll one extra base die, +2 means you roll two
+extra base dice, and so on. A −1 modifier means you roll one base die
+fewer than normal, −2 means two fewer, and so on. Several modifiers can
+apply to the same roll, and they are cumulative.
+
+Always add and remove base dice from your skills, if you can (not from
+attributes or gear). If you don't have enough dice from skills, remove
+base dice from gear. If you run out of gear dice as well, remove base
+dice from attributes. If you end up with no dice at all, you have no
+chance to succeed -- time to rethink your strategy!
+
+### Complicated Success
+
+If you only roll one success, you reach your stated goal, but also gain
+some additional complication, depending on the situation and the skill
+used. The GM should make a soft [reaction](#reactions).
+
+### Failure
+
+If you roll no success, something goes wrong. For some reason, you
+failed to achieve your goal. A failed roll will have further
+consequences and should move the story forward in a dramatic way.
+Outside of [combat](#combat), the GM should make a hard
+[reaction](#reactions).
+
+You have one last chance if you really need to succeed -- you can push
+the roll.
+
+### Reactions
+
+Whenever everyone looks to you to see what happens or the rules say,
+choose a reaction.
+
+A **soft reaction** is one without immediate, irrevocable consequences.
+That usually means it's something not all that bad, like revealing that
+there's more treasure if they can just find a way past the golem (offer
+an opportunity with cost). It can also mean that it's something bad, but
+they have time to avoid it, like hearing an approaching band of goblin
+archers with a chance to hide from them.
+
+A soft reaction ignored becomes a golden opportunity for a hard
+reaction.
+
+**Hard reactions**, on the other hand, have immediate consequences.
+
+Possible reactions include:
+
+- Reveal an unwelcome truth
+- Show signs of an approaching threat
+- Use up resources
+- Turn their action back on them
+- Separate them
+- Offer an opportunity
+- Put someone on the spot
+- Give them a hard choice
+
+### Pushing
+
+If you fail your initial roll, or if you want additional successes, you
+can lean into the action, giving it everything you've got, pushing
+yourself to the limit. This is called a **push**, and lets you re-roll
+any dice that don't show the result of 1.
+
+How a pushed roll plays out in story terms depends on what skill you are
+using. It can take the form of a great physical exertion, total mental
+focus, or emotional strain.
+
+You can only push a skill roll once. If you don’t succeed on your second try, you are stuck dealing with the consequences.
+
+You can only push skill rolls when you actively perform an action.
+
+### Banes
+
+A base die showing a 1 is called a bane and can never be re-rolled when
+pushing. After a push, you cannot change back to the previous result.
+All dice count after the push, even any dice you didn't re-roll.
+
+### Help
+
+### Opposed Rolls
+
+## Combat
+
+### Zones
+
+### Initiative
+
+When combat begins, the first step is to determine who has the initiative. Do this before anyone rolls dice for an action. Each player taking part in the conflict, either voluntarily or involuntarily rolls Agility + 2d6. Participants act in order from highest to lowest number, until everyone has taken their turn. If characters draw, the one with the highest Agility goes first, or the GM randomly chooses the fastest character.
+
+#### NPC Initiative
+
+For a group of NPCs with identical stats, the GM can, if they want, draw one initiative card for the group instead of one per individual. All the NPCs in that group act at the same point in the round order. In what order they act individually within the group is up to the GM.
+
+#### Rounds
+
+### Slow and Fast Actions
+
+Slow actions:
+
+| ACTION              | PREREQUISITE           |
+| ------------------- | ---------------------- |
+| Crawl               | You are prone          |
+| Close combat attack | —                      |
+| Shoot ranged weapon | Ranged weapon          |
+| Reload              | Firearm                |
+| First aid           | Broken or dying victim |
+
+Fast actions:
+
+| FAST ACTION             | PREREQUISITE                |
+| ----------------------- | --------------------------- |
+| Run                     | No Engaged enemy            |
+| Move through door/hatch | —                           |
+| Get up                  | You are prone               |
+| Draw weapon             | —                           |
+| Block attack            | Attacked in close combat    |
+| Grapple attack          | You’ve grappled an opponent |
+| Retreat                 | Engaged enemy               |
+| Aim                     | Ranged weapon               |
+| Seek cover              | Cover in same zone          |
+| Enter/exit vehicle      | Vehicle                     |
+| Start engine            | Vehicle                     |
+| Grab the wheel          | Vehicle                     |
+| Drive                   | Vehicle                     |
+| Use item                | Varies                      |
+
+### Movement
+
+### Sneak Attacks
+
+### Ambush
+
+### Close Combat
+
+### Ranged Combat
+
+### Armour
+
+### Damage & Stress
+
+Damage and stress to characters can reduce your [Health](#health) and
+[Resolve](#resolve) scores and cause [critical
+injuries](#critical-injuries).
+
+You can suffer damage in many ways. These are the most common:
+
+- PUSHING: [Pushing](#pushing) can inflict damage and stress. Armor has
+  no effect against damage from pushing.
+- ATTACKS: Whenever you [attack](#attacks) someone in [combat](#combat),
+  you inflict damage equal to the base damage rating of the weapon, plus
+  one additional point of damage for each extra success rolled beyond
+  the first. The same goes for damage from explosions, fire, etc.
+- STRESSFUL SITUATIONS: When your PC is subjected to fear or a stressful
+  situation, the GM determines the potential stress inflicted (see the
+  table below). You then make an Empathy roll (not an action) -- each
+  success rolled eliminates one point of potential stress. You can push
+  the roll, but at the risk of suffering even more stress if you get any
+  on the re-roll.
+
+  | Factor                                                      | Stress |
+  | ----------------------------------------------------------- | ------ |
+  | Being threatened with violence                              | 1      |
+  | Seeing a friendly character suffer a lethal critical injury | 2      |
+  | Seeing something unnatural                                  | 2      |
+  | Seeing a friendly character die                             | 3      |
+  | Being interrogated                                          | 3      |
+  | Facing a frightening supernatural being                     | 3      |
+  | Witnessing a massacre                                       | 4      |
+  | Being tortured                                              | 4      |
+
+### Broken
+
+Your PC can be broken by [damage or stress](#damage-and-stress). You are broken if [Health](#health) or [Resolve](#resolve) are reduced to zero. This basically means you are taken out of action, and you might risk even lethal injuries. When broken, you can't perform any actions or make rolls.
+
+You can't go below zero in [Health](#health) or [Resolve](#resolve). If you suffer further damage, you may suffer an additional [critical injury](#critical-injuries) however.
+
+### Critical Injuries
+
+Critical injuries are dangerous, even lethal, injuries to your body or
+mind. You suffer a physical critical injury when your [Health](#health)
+is reduced to zero, and a mental critical injury when your
+[Resolve](#resolve) is reduced to zero.
+
+When you suffer a critical injury, roll on the relevant table below to
+see what it is.
+
+#### Physical Critical Injuries
+
+| D66 | INJURY                | LETHAL | TIMELIMIT | EFFECTS                                                                                    | HEALING TIME |
+| --- | --------------------- | ------ | --------- | ------------------------------------------------------------------------------------------ | ------------ |
+| 11  | Winded                | No     | —         | None.                                                                                      | —            |
+| 12  | Stunned               | No     | —         | None.                                                                                      | —            |
+| 13  | Crippling pain        | No     | —         | None.                                                                                      | —            |
+| 14  | Sprained ankle        | No     | —         | Mobility −2 and movement is a slow action until a Healing roll is made.                    | —            |
+| 15  | Blood in eyes         | No     | —         | Observation and Marksmanship −2 until a Healing roll is made.                              | —            |
+| 16  | Concussion            | No     | —         | Mobility −2.                                                                               | D6           |
+| 21  | Severed ear           | No     | —         | Observation −2.                                                                            | D6           |
+| 22  | Broken toes           | No     |           | Movement becomes a slow action.                                                            | D6           |
+| 23  | Broken hand           | No     | —         | Hand cannot be used.                                                                       | D6           |
+| 24  | Knocked out teeth     | No     | —         | Persuasion −2.                                                                             | D6           |
+| 25  | Impaled thigh         | No     | —         | Movement becomes a slow action.                                                            | 2D6          |
+| 26  | Slashed shoulder      | No     | —         | Arm cannot be used.                                                                        | D6           |
+| 31  | Broken nose           | No     | —         | Persuasion and Observation −1.                                                             | D6           |
+| 32  | Crotch hit            | No     | —         | One point of damage for every Mobility or Melee roll made.                                 | D6           |
+| 33  | Broken ribs           | No     | —         | Mobility and Observation −2.                                                               | 2D6          |
+| 34  | Gouged eye            | No     | —         | Marksmanship and Observation −2.                                                           | 2D6          |
+| 35  | Busted kneecap        | No     | —         | Movement becomes a slow action.                                                            | 2D6          |
+| 36  | Broken arm            | No     | —         | Arm cannot be used.                                                                        | 2D6          |
+| 41  | Broken leg            | No     | —         | Movement becomes a slow action.                                                            | 2D6          |
+| 42  | Crushed foot          | No     | —         | Movement becomes a slow action.                                                            | 3D6          |
+| 43  | Crushed elbow         | No     | —         | Arm cannot be used.                                                                        | 3D6          |
+| 44  | Punctured lung        | Yes    | Shift     | Stamina and Mobility −2.                                                                   | D6           |
+| 45  | Bleeding gut          | Yes    | Shift     | One point of damage for every Mobility or Melee roll made.                                 | D6           |
+| 46  | Ruptured intes- tines | Yes    | Shift     | Disease with virulence 6.                                                                  | 2D6          |
+| 51  | Busted kidney         | Yes    | Day       | Mobility −2 and movement is a slow action.                                                 | 2D6          |
+| 52  | Severed arm artery    | Yes −1 | Stretch   | Arm cannot be used.                                                                        | D6           |
+| 53  | Severed leg artery    | Yes −1 | Stretch   | Movement becomes a slow action.                                                            | D6           |
+| 54  | Severed arm           | Yes −1 | Shift     | Arm cannot be used.                                                                        | Permanent    |
+| 55  | Severed leg           | Yes −1 | Shift     | Movement becomes a slow action.                                                            | Permanent    |
+| 56  | Cracked spine         | No     | —         | Paralyzed from the neck down. If no Healing roll is made in time, the effect is permanent. | 3D6          |
+| 61  | Ruptured jugular      | Yes −1 | Round     | Stamina −1.                                                                                | 2D6          |
+| 62  | Ruptured aorta        | Yes −2 | Round     | Stamina −2.                                                                                | 3D6          |
+| 63  | Disemboweled          | Yes    | —         | Instant death.                                                                             | —            |
+| 64  | Crushed skull         | Yes    | —         | Your story ends here.                                                                      | —            |
+| 65  | Pierced head          | Yes    | —         | You die immediately.                                                                       | —            |
+| 66  | Impaled heart         | Yes    | —         | Your heart beats for the last time.                                                        | —            |
+
+#### Mental Critical Injuries
+
+| D66   | TRAUMA                | EFFECTS                                                                                                                                                                                          | HEALING TIME |
+| ----- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| 11-16 | Trembling             | Modifier −1 on all Agility-based rolls.                                                                                                                                                          | D6           |
+| 21    | White hair            | None.                                                                                                                                                                                            | Permanent    |
+| 22-24 | Anxious               | Modifier −1 on all Wits-based rolls.                                                                                                                                                             | D6           |
+| 25–31 | Sullen                | Modifier −1 on all Empathy-based rolls.                                                                                                                                                          | D6           |
+| 32-35 | Nightmares            | Make an Insight roll every shift spent sleeping. Failure means that the sleep doesn’t count.                                                                                                     | D6           |
+| 36–41 | Nocturnal             | You can only sleep during the light part of the day.                                                                                                                                             | 2D6          |
+| 42-43 | Phobic                | You are terrified by something related to what broke you. The GM decides what it is. You suffer one point of stress / damage to Wits each round within Short range of the object of your phobia. | 2D6          |
+| 44-45 | Alcoholic             | You must drink alcohol every day, or suffer one point of stress / damage to Agility.                                                                                                             | 3D6          |
+| 46-51 | Claustrophobic        | Every stretch in a confined environment, you suffer one point of stress / damage to Wits.                                                                                                        | 2D6          |
+| 52    | Mythomaniac           | You cannot stop yourself from lying about everything. The effect needs to be roleplayed.                                                                                                         | 2D6          |
+| 53-54 | Paranoia              | You are certain that someone is out to get you. The effect needs to be roleplayed.                                                                                                               | 2D6          |
+| 55    | Delusion              | You are totally convinced of something that is totally untrue, for example that a certain color or item doesn’t exist.                                                                           | 3D6          |
+| 56    | Hallucinations        | Make an Insight roll every shift. If you fail, you suffer a powerful hallucination. The GM deter- mines the details.                                                                             | 3D6          |
+| 61-62 | Altered person- ality | Your personality is altered in a fundamental way. Determine how together with the GM. The effect should be roleplayed.                                                                           | Permanent    |
+| 63    | Amnesia               | You lose all memory, and cannot recollect who you or the other PCs are. The effect should be roleplayed.                                                                                         | D6           |
+| 64-65 | Catatonic             | You stare blankly into oblivion, and do not respond to any stimuli.                                                                                                                              | D6           |
+| 66    | Heart attack          | Your heart stops, and you die of pure fright.                                                                                                                                                    | —            |
+
+### Recovery
+
+Being broken is not fatal in itself – only [critical injuries](#critical-injuries) can actually kill you. There are two ways to recover after being broken, assuming you’re not dead.
+
+- GETTING HELP: Someone can help you recover by using Empathy. This is a slow action. If the roll is successful, you immediately heal damage or stress equal to the number of successes rolled. Getting help only has this effect on a broken victim.
+- ON YOUR OWN: If no one is around to help you, you automatically heal one point of damage or stress after one Shift has passed.
+- NOT BROKEN? If you are not broken, you heal one point of damage or stress per shift. You can heal damage and stress at the same time.
+
+## Equipment
+
+### Weapons
+
+| Weapon           | Price | Grip | Bonus | Damage | Range   |
+| ---------------- | ----- | ---- | ----- | ------ | ------- |
+| Unarmed          |       | —    | —     | 1      | Engaged |
+| Blunt instrument |       | 1H   | +2    | 2      | Engaged |
+| Knife            |       | 1H   | +2    | 3      | Engaged |
+| Club             |       | 1H   | +3    | 2      | Engaged |
+| Sword            |       | 1H   | +3    | 3      | Engaged |
+| Battleaxe        |       | 2H   | +3    | 3      | Engaged |
+| Spear            |       | 1H   | +2    | 2      | Short   |
+| Rock             |       | 1H   | —     | 2      | Medium  |
+| Sling            |       | 1H   | +1    | 2      | Medium  |
+| Bow              |       | 2H   | +2    | 2      | Long    |
+| Pistol           |       | 1H   | +2    | 3      | Medium  |
+| Rifle            |       | 2H   | +3    | 3      | Long    |
+
+### Arcane Tools
+
+| Item         | Price    | Bonus | Effect                              |
+| ------------ | -------- | ----- | ----------------------------------- |
+| Libre Noctus | 20 GOLD  | 2     | Improves [necromancy](#necromancy). |
+| Necronomicon | 100 GOLD | 3     | Improves [necromancy](#necromancy). |
+
+## Appendices
+
+### Hacking
+
+Requires [Node.js](http://nodejs.org/). To set-up your environment execute:
+
+    $ npm i
+
+To build:
+
+    $ npm run build
+
+To lint and test:
+
+    $ npm test
+
+To run:
+
+    $ npm start
+
+And in a separate window run:
+
+    $ npm run build:watch
+
+### Design Notes
+
+This section describes the variouis choices and deviations I made writing Year Zero Fantasy, based on material from the original [Year Zero Engine SRD](https://freeleaguepublishing.com/wp-content/uploads/2023/11/YZE-Standard-Reference-Document.pdf). It may be of use to those hacking this system.
+
+#### Simplifications
+
+Strictly only use D6s.
+
+[Health](#health) and [Resolve](#resolve) are the totals of two attributes, rather than their average. This means they are double the values expected from the Year Zero SRD, so damages are roughly doubled as well.
