@@ -34,21 +34,32 @@ vellum-doc::part(index-h4) {
   font-size: 0.8em;
 }
 
-section#document {
+#document {
   padding-left: 5em;
   padding-right: 5em;
 }
 
-section#document > section {
+#document > section {
   width: 100%;
 }
 
-section#document > section:has(h4:first-child) {
+#document > section:has(h4:first-child) {
   width: 47%;
 }
 
 @media (max-width: 750px) {
-  section#document > section:has(h4:first-child) {
+  #document > section:has(h4:first-child) {
     width: 100%;
   }
+}
+
+#document h1,
+#document h2,
+#document h3{
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+#document footer {
+  border-top: 1px solid;
 }
