@@ -345,16 +345,6 @@ The point in the initiative order at which you act is called your turn. On your 
 | Use item                | Varies                      |
 | Help with Fast Action   | —                           |
 
-### Movement
-
-### Sneak Attacks
-
-### Ambush
-
-### Close Combat
-
-### Ranged Combat
-
 ### Armour
 
 ### Damage and Stress
