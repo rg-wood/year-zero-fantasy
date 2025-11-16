@@ -274,7 +274,7 @@ Sometimes, rolling a success isn’t enough to succeed with your skill roll. In 
 
 ### Frustrated Rolls
 
-Sometimes actions are more than difficult: they require a push of willpower to push them over the line and succeed. These are frustrated rolls. In a frustrated roll all [banes](#banes) are active on the first roll, as though you had [pushed](#pushing).
+Sometimes actions are more than just difficult: they require willpower to push them over the line and succeed. These are frustrated rolls. In a frustrated roll all [banes](#banes) are active on the first roll, as though you had [pushed](#pushing).
 
 Additionally, you can incur [critical injuries](#critical-injuries) when you're [broken](#broken) by a frustrated roll. You can also push frustrated rolls.
 
@@ -401,6 +401,8 @@ Critical injuries are dangerous, even lethal, injuries to your body or
 mind. You suffer a physical critical injury when your [Health](#health)
 is reduced to zero, and a mental critical injury when your
 [Resolve](#resolve) is reduced to zero.
+
+You cannot gain critical injuries when you're broken by [pushing a roll](#pushing).
 
 When you suffer a critical injury, roll on the relevant table below to
 see what it is.
