@@ -196,7 +196,7 @@ chance to succeed -- time to rethink your strategy!
 
 If you only roll one success, you reach your stated goal, but also gain
 some additional complication, depending on the situation and the skill
-used. The GM should make a soft [reaction](#reactions).
+used. The GM should make a soft [move](#move).
 
 ### Failure
 
@@ -204,29 +204,29 @@ If you roll no success, something goes wrong. For some reason, you
 failed to achieve your goal. A failed roll will have further
 consequences and should move the story forward in a dramatic way.
 Outside of [combat](#combat), the GM should make a hard
-[reaction](#reactions).
+[move](#moves).
 
 You have one last chance if you really need to succeed -- you can push
 the roll.
 
-### Reactions
+### Moves
 
 Whenever everyone looks to you to see what happens or the rules say,
-choose a reaction.
+choose a move.
 
-A **soft reaction** is one without immediate, irrevocable consequences.
+A **soft move** is one without immediate, irrevocable consequences.
 That usually means it's something not all that bad, like revealing that
 there's more treasure if they can just find a way past the golem (offer
 an opportunity with cost). It can also mean that it's something bad, but
 they have time to avoid it, like hearing an approaching band of goblin
 archers with a chance to hide from them.
 
-A soft reaction ignored becomes a golden opportunity for a hard
-reaction.
+A soft move ignored becomes a golden opportunity for a hard
+move.
 
-**Hard reactions**, on the other hand, have immediate consequences.
+**Hard moves**, on the other hand, have immediate consequences.
 
-Possible reactions include:
+Possible moves include:
 
 - Reveal an unwelcome truth
 - Show signs of an approaching threat
@@ -274,11 +274,13 @@ Sometimes, rolling a success isn’t enough to succeed with your skill roll. In 
 
 ### Frustrated Rolls
 
-Sometimes actions are more than just difficult: they require willpower to push them over the line and succeed. These are frustrated rolls. In a frustrated roll all [banes](#banes) are active on the first roll, as though you had [pushed](#pushing).
+Sometimes actions are more than just difficult: they require willpower to push them over the line and succeed. These are frustrated rolls. With a frustrated roll all [banes](#banes) are active on the first roll, as though you had [pushed](#pushing).
 
 Additionally, you can incur [critical injuries](#critical-injuries) when you're [broken](#broken) by a frustrated roll. You can also push frustrated rolls.
 
 The rules will tell you when a roll is frustrated. Typically this is when you're using magic.
+
+## Time
 
 ## Combat
 
@@ -318,6 +320,10 @@ When all the participants in the combat have acted once, the round is over, and 
 
 The point in the initiative order at which you act is called your turn. On your turn, you can perform one slow action and one fast action, or two fast actions.
 
+#### Reactions
+
+Some actions can happen outside your turn in reaction to another character's action, such as blocking or dodging. These are called reactions, and are treated like other combat actions. If you are rolling, you must declare that you are attempting a reaction before the other characters rolls for theirs.
+
 ### Slow Actions
 
 | ACTION                | PREREQUISITE           |
@@ -345,18 +351,38 @@ The point in the initiative order at which you act is called your turn. On your 
 | Use item                | Varies                      |
 | Help with Fast Action   | —                           |
 
+### Combat Modifiers
+
+Various factors can affect rolls in combat. The following is a (nonexuastive) list of possible [modifiers](#modifiers):
+
+| FACTOR         | MODIFIER |
+| -------------- | -------- |
+| Aimed shot     | +2       |
+| Target Engaged | −3/+3    |
+| Medium range   | −1       |
+| Long range     | −2       |
+| Extreme range  | −3       |
+| Large target   | +2       |
+| Small target   | −2       |
+| Dim light      | −1       |
+| Darkness       | −2       |
+| Attacker prone     | −2     |
+| Target prone       | +2       |
+| Defenseless target | +3       |
+
 ### Armour
 
 Body armour can protect you from damage. Armour doesn’t
 provide protection from other kinds of damage, or from damage you inflict on yourself when you push a roll. The effect of
-armour is determined by its armour rating.
+armour is determined by its [gear dice](#gear-dice).
 
-When you suffer damage from a physical attack, roll a
-number of base dice equal to the armour rating. Every success you roll decreases the damage by one. This roll does not count as an action and cannot be pushed.
+When you suffer damage from a physical attack, roll the gear dice. Every success you roll decreases the damage by one. This roll does not count as an action and cannot be pushed.
 
 If any damage penetrates your armour,
-its armour rating is decreased – every bane you rolled reduces
-the armour rating by one step. If the armour absorbs all the damage, any banes rolled have no effect. Armour can be repaired.
+it is damaged – every bane you rolled reduces
+the armour rating by one step. If the armour absorbs all the damage, any banes rolled have no effect.
+
+Armour can be repaired.
 
 ### Damage and Stress
 
@@ -477,7 +503,7 @@ Being broken is not fatal in itself – only [critical injuries](#critical-injur
 
 - GETTING HELP: Someone can help you recover by using Empathy. This is a slow action. If the roll is successful, you immediately heal damage or stress equal to the number of successes rolled. Getting help only has this effect on a broken victim.
 - ON YOUR OWN: If no one is around to help you, you automatically heal one point of damage or stress after one Shift has passed.
-- NOT BROKEN? If you are not broken, you heal one point of damage or stress per shift. You can heal damage and stress at the same time.
+- NOT BROKEN? If you are not broken, you heal one point of damage or stress per [shift](#time). You can heal damage and stress at the same time.
 
 ## Equipment
 
