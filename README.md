@@ -55,11 +55,11 @@ You can distribute 5 points across your starting talents. No talent can start ab
 
 ### Health
 
-Your starting Health equals your Strength and Agility scores.
+Your starting Health equals your Strength and Agility scores. See [Damage and Stress](#damage-and-stress) for more information.
 
 ### Resolve
 
-Your starting Resolve equals your Wits and Empathy scores.
+Your starting Resolve equals your Wits and Empathy scores. See [Damage and Stress](#damage-and-stress) for more information.
 
 ### Experience
 
@@ -96,7 +96,7 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 
 ### Sorcerer
 
-**Talents:** [Necromancy](#necromancy).
+**Talents:** [Necromancer](#necromancer).
 
 ## Talents
 
@@ -117,12 +117,29 @@ Your maximum [Health](#health) score is increased by 1 per the level of this tal
 
 ### Magic Talents
 
+#### Arcane
+
+As a [slow action](slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [frustrated](#frustrated-rolls).
+
+#### Malediction
+
+**Requirements:** [Arcane](#arcane)
+
+As a [slow action](slow-actions) you can use WITS to deal a [critical injury](#critical-injury) to a target within Medium [range](#ranges). The caster decides whether the injury is physical or mental.
+
+Assume the first roll on the d66 you would normally roll for a critical injury is 1, and roll a 1d6 for the second roll. Each additional success increases the first roll by 1, up to a maximum of 6. For example, if you had 2 successes and rolled a 3, you would inflict the injury listed under 23 on the injury table.
+
+Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [frustrated](#frustrated-rolls).
+
 #### Necromancer
 
-You gain a bonus equal to the level of this talent to speak with the
-undead. Additionally, you can use WITS to sense the presence of the
-undead. Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll.
+**Requirements:** [Arcane](#arcane)
+
+You can use WITS to sense, summon and control the
+undead. Typically, this is an [opposed roll](#opposed-rolls) Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [frustrated](#frustrated-rolls).
 
 ## Rolling
 
@@ -241,13 +258,49 @@ A base die showing a 1 is called a bane and can never be re-rolled when
 pushing. After a push, you cannot change back to the previous result.
 All dice count after the push, even any dice you didn't re-roll.
 
+Normally, each bane deals 1 point of damage to [Health](#health) or [Resolve](#resolve). Rolling a bane on an action involving Empathy or Wits deals damage to Resolve, and Health for Strength or Agility.
+
 ### Help
+
+Other PCs or NPCs can help you succeed at a skill roll. This must be declared before you roll your dice. It must also make sense in the story – the individuals helping you must be physically present and have the capacity to support your action. The GM has final say.
+
+For each person helping you, you get a +1 modifier. No more than three people can help you with a single roll, meaning your maximum modifier from getting help is +3. In combat, helping counts as the same type of action as the one you are supporting (fast or slow).
+
+NPCs can help each other in the same way as player characters. Letting NPCs act in groups instead of individually is often an easy way to manage large numbers of NPCs in combat.
 
 ### Opposed Rolls
 
+Sometimes, rolling a success isn’t enough to succeed with your skill roll. In some cases, you must beat your opponent in an opposed roll. To win an opposed roll, you must roll more successes than your adversary. Every success rolled by your adversary eliminates one of your successes. Only you (the active party) can push your roll – and you can decide to do so even after your opponent rolls.
+
+### Frustrated Rolls
+
+Sometimes actions are more than difficult: they require a push of willpower to push them over the line and succeed. These are frustrated rolls. In a frustrated roll all [banes](#banes) are active on the first roll, as though you had [pushed](#pushing).
+
+Additionally, you can incur [critical injuries](#critical-injuries) when you're [broken](#broken) by a frustrated roll. You can also push frustrated rolls.
+
+The rules will tell you when a roll is frustrated. Typically this is when you're using magic.
+
 ## Combat
 
+Combat is deadly in Year Zero Fantasy. Before you enter a fight, you should always ask yourself: Is it worth it?
+
 ### Zones
+
+A violent conflict is typically played out using a map of the location where your characters happen to find themselves fighting for their lives.
+
+The map is divided into zones. A zone is typically a room, a corridor, or an area of ground. How big a zone is varies – from a few steps across up to about 25 meters. A zone is generally smaller in a cramped environment than in open terrain.
+
+### Ranges
+
+The distance between you and your opponents is divided into five range categories:
+
+| RANGE   | DESCRIPTION                                      |
+| ------- | ------------------------------------------------ |
+| Engaged | Right next to you                                |
+| Short   | A few meters away, in the same zone as you       |
+| Medium  | Up to 25 meters away, in an adjacent zone        |
+| Long    | Up to about one hundred meters (four zones) away |
+| Extreme | Up to about one kilometer                        |
 
 ### Initiative
 
@@ -259,19 +312,24 @@ For a group of NPCs with identical stats, the GM can, if they want, draw one ini
 
 #### Rounds
 
-### Slow and Fast Actions
+When all the participants in the combat have acted once, the round is over, and a new round begins. The round order remains the same throughout the whole conflict – drawing initiative is only done once, at the start of the first round.
 
-Slow actions:
+#### Turns
 
-| ACTION              | PREREQUISITE           |
-| ------------------- | ---------------------- |
-| Crawl               | You are prone          |
-| Close combat attack | —                      |
-| Shoot ranged weapon | Ranged weapon          |
-| Reload              | Firearm                |
-| First aid           | Broken or dying victim |
+The point in the initiative order at which you act is called your turn. On your turn, you can perform one slow action and one fast action, or two fast actions.
 
-Fast actions:
+### Slow Actions
+
+| ACTION                | PREREQUISITE           |
+| --------------------- | ---------------------- |
+| Crawl                 | You are prone          |
+| Close combat attack   | —                      |
+| Shoot ranged weapon   | Ranged weapon          |
+| Reload                | Firearm                |
+| First aid             | Broken or dying victim |
+| Help with Slow Action | —                      |
+
+### Fast Actions
 
 | FAST ACTION             | PREREQUISITE                |
 | ----------------------- | --------------------------- |
@@ -284,11 +342,8 @@ Fast actions:
 | Retreat                 | Engaged enemy               |
 | Aim                     | Ranged weapon               |
 | Seek cover              | Cover in same zone          |
-| Enter/exit vehicle      | Vehicle                     |
-| Start engine            | Vehicle                     |
-| Grab the wheel          | Vehicle                     |
-| Drive                   | Vehicle                     |
 | Use item                | Varies                      |
+| Help with Fast Action   | —                           |
 
 ### Movement
 
@@ -302,7 +357,7 @@ Fast actions:
 
 ### Armour
 
-### Damage & Stress
+### Damage and Stress
 
 Damage and stress to characters can reduce your [Health](#health) and
 [Resolve](#resolve) scores and cause [critical
@@ -442,10 +497,10 @@ Being broken is not fatal in itself – only [critical injuries](#critical-injur
 
 ### Arcane Tools
 
-| Item         | Price    | Bonus | Effect                              |
-| ------------ | -------- | ----- | ----------------------------------- |
-| Libre Noctus | 20 GOLD  | 2     | Improves [necromancy](#necromancy). |
-| Necronomicon | 100 GOLD | 3     | Improves [necromancy](#necromancy). |
+| Item         | Price    | Bonus | Effect                               |
+| ------------ | -------- | ----- | ------------------------------------ |
+| Libre Noctus | 20 GOLD  | 2     | Improves [necromancy](#necromancer). |
+| Necronomicon | 100 GOLD | 3     | Improves [necromancy](#necromancer). |
 
 ## Appendices
 
