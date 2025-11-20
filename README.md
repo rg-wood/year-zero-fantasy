@@ -436,44 +436,44 @@ see what it is.
 
 #### Physical Critical Injuries
 
-| D66 | INJURY                | EFFECTS                                                                                    |
-| --- | --------------------- | ------------------------------------------------------------------------------------------ |
-| 11  | Winded                | None.                                                                                      |
-| 12  | Stunned               | None.                                                                                      |
-| 13  | Crippling pain        | None.                                                                                      |
-| 14  | Sprained ankle        | Mobility −2 and movement is a slow action until a Healing roll is made.                    |
-| 15  | Blood in eyes         | Observation and Marksmanship −2 until a Healing roll is made.                              |
-| 16  | Concussion            | Mobility −2.                                                                               |
-| 21  | Severed ear           | Observation −2.                                                                            |
-| 22  | Broken toes           | Movement becomes a slow action.                                                            |
-| 23  | Broken hand           | Hand cannot be used.                                                                       |
-| 24  | Knocked out teeth     | Persuasion −2.                                                                             |
-| 25  | Impaled thigh         | Movement becomes a slow action.                                                            |
-| 26  | Slashed shoulder      | Arm cannot be used.                                                                        |
-| 31  | Broken nose           | Persuasion and Observation −1.                                                             |
-| 32  | Crotch hit            | One point of damage for every Mobility or Melee roll made.                                 |
-| 33  | Broken ribs           | Mobility and Observation −2.                                                               |
-| 34  | Gouged eye            | Marksmanship and Observation −2.                                                           |
-| 35  | Busted kneecap        | Movement becomes a slow action.                                                            |
-| 36  | Broken arm            | Arm cannot be used.                                                                        |
-| 41  | Broken leg            | Movement becomes a slow action.                                                            |
-| 42  | Crushed foot          | Movement becomes a slow action.                                                            |
-| 43  | Crushed elbow         | Arm cannot be used.                                                                        |
-| 44  | Punctured lung        | Stamina and Mobility −2.                                                                   |
-| 45  | Bleeding gut          | One point of damage for every Mobility or Melee roll made.                                 |
-| 46  | Ruptured intes- tines | Disease with virulence 6.                                                                  |
-| 51  | Busted kidney         | Mobility −2 and movement is a slow action.                                                 |
-| 52  | Severed arm artery    | Arm cannot be used.                                                                        |
-| 53  | Severed leg artery    | Movement becomes a slow action.                                                            |
-| 54  | Severed arm           | Arm cannot be used.                                                                        |
-| 55  | Severed leg           | Movement becomes a slow action.                                                            |
-| 56  | Cracked spine         | Paralyzed from the neck down. If no Healing roll is made in time, the effect is permanent. |
-| 61  | Ruptured jugular      | Stamina −1.                                                                                |
-| 62  | Ruptured aorta        | Stamina −2.                                                                                |
-| 63  | Disemboweled          | Instant death.                                                                             |
-| 64  | Crushed skull         | Your story ends here.                                                                      |
-| 65  | Pierced head          | You die immediately.                                                                       |
-| 66  | Impaled heart         | Your heart beats for the last time.                                                        |
+| D66 | INJURY              | EFFECTS     |
+| --- | ------------------- | ----------- |
+| 11  | Winded              | None.       |
+| 12  | Stunned             | None.       |
+| 13  | Crippling pain      | None.       |
+| 14  | Sprained ankle      | -1 Physical |
+| 15  | Blood in eyes       | -1 Physical |
+| 16  | Concussion          | -1 Physical |
+| 21  | Severed ear         | -1 Physical |
+| 22  | Broken toes         | -1 Physical |
+| 23  | Broken hand         | -2 Physical |
+| 24  | Knocked out teeth   | -1 Social   |
+| 25  | Impaled thigh       | -2 Physical |
+| 26  | Slashed shoulder    | -2 Physical |
+| 31  | Broken nose         | -1 Physical |
+| 32  | Crotch hit          | -1 Physical |
+| 33  | Broken ribs         | -2 Physical |
+| 34  | Gouged eye          | -2 Physical |
+| 35  | Busted kneecap      | -2 Physical |
+| 36  | Broken arm          | -3 Physical |
+| 41  | Broken leg          | -3 Physical |
+| 42  | Crushed foot        | -3 Physical |
+| 43  | Crushed elbow       | -3 Physical |
+| 44  | Punctured lung      | -3 Physical |
+| 45  | Bleeding gut        | -3 Physical |
+| 46  | Ruptured intestines | -3 Physical |
+| 51  | Busted kidney       | -3 Physical |
+| 52  | Severed arm artery  | -3 Physical |
+| 53  | Severed leg artery  | -3 Physical |
+| 54  | Severed arm         | -3 Physical |
+| 55  | Severed leg         | -3 Physical |
+| 56  | Cracked spine       | Paralysis?  |
+| 61  | Ruptured jugular    | Stamina −1. |
+| 62  | Ruptured aorta      | Stamina −2. |
+| 63  | Disemboweled        | Death       |
+| 64  | Crushed skull       | Death       |
+| 65  | Pierced head        | Death       |
+| 66  | Impaled heart       | Death       |
 
 #### Mental Critical Injuries
 
