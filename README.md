@@ -8,7 +8,7 @@ How you create your player character is explained in detail in this
 chapter. The summary below is a helpful overview. Grab a character
 sheet, a pencil, and follow these steps:
 
-1.  Choose your [profession](#professions).
+1.  Choose your [class](#class).
 2.  Determine your [attributes](#attributes).
 3.  Determine your [talents](#talents).
 4.  Determine your [Health](#health) and [Resolve](#resolve).
@@ -84,15 +84,15 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 | 2            | 10 XP |
 | 3            | 15 XP |
 
-## Professions
+## Class
 
 ### Fighter
 
 **Talents:** [Defender](#defender), [Tough](#tough)
 
-### Priest
-
 ### Rogue
+
+#### Saint
 
 ### Sorcerer
 
@@ -102,25 +102,69 @@ To increase a talent level by one step costs a number of XP indicated by the tab
 
 ### Combat Talents
 
+#### Axe Fighter
+
+#### Brawler
+
+You gain a bonus equal to the level of this talent for unarmed attacks.
+
 #### Defender
 
-You gain a bonus equal to the level of this talent to defend allies
-within SHORT distance of you.
+You can block attacks against allies
+within SHORT distance of you. You also gain a bonus equal to the level of this talent to block.
 
-#### True Grit
+#### Fast Reflexes
+
+You gain a bonus equal to the level of this talent to dodge attacks and other AGILITY rolls to react to sudden events.
+
+#### Frenzy
+
+You can use this taken to gain a bonus equal to the level of this talent to any melee attacks. When you use this talent, attacks against you have +2 modifier until your next [turn](#turns).
+
+#### Grit
 
 Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
+
+#### Knife Fighter
+
+#### Marksman
+
+#### Sword Master
 
 #### Tough
 
 Your maximum [Health](#health) score is increased by 1 per the level of this talent.
+
+### General Talents
+
+#### Compassionate
+
+#### Deceitful
+
+#### Vigilant
+
+#### Insightful
+
+You gain a bonus equal to the level of this talent to EMPATHY rolls to read other people and see through lies. 
+
+#### Persuasive
+
+#### Reckless
+
+You can push any skill roll based on Agility twice, not just once like other characters.
+
+#### Sleight of Hand
+
+#### Stealthy
 
 ### Magic Talents
 
 #### Arcane
 
 As a [slow action](#slow-actions) you can use WITS or EMPATHY (your choice) to sense, dispel or hide magic within Long [range](#ranges). Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [frustrated](#frustrated-rolls).
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+
+#### Seer
 
 #### Malediction
 
@@ -131,15 +175,73 @@ As a [slow action](#slow-actions) you can use WITS to deal a [critical injury](#
 Assume the first roll on the d66 you would normally roll for a critical injury is 1, and roll a 1d6 for the second roll. Each additional success increases the first roll by 1, up to a maximum of 6. For example, if you had 2 successes and rolled a 3, you would inflict the injury listed under 23 on the injury table.
 
 Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [frustrated](#frustrated-rolls).
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
 
 #### Necromancer
 
 **Requirements:** [Arcane](#arcane)
 
 You can use WITS to sense, summon and control the
-undead. Typically, this is an [opposed roll](#opposed-rolls) Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [frustrated](#frustrated-rolls).
+undead. Typically, this is an [opposed roll](#opposed-rolls). Some [equipment](#equipment) can give you [Gear
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+
+### Occupational Talents
+
+#### Assassin
+
+#### Burglar
+
+#### Carpenter
+
+#### Cook                                                                                                                                                                                                                                                                  
+
+#### Diplomat
+
+#### Fanatic
+
+Your maximum [Resolve](#resolve) score is increased by 1 per the level of this talent.
+
+#### Fence
+
+#### Fletcher
+
+#### Footpad
+
+#### Guard
+
+#### Healer
+
+#### Hermit
+
+#### Historian
+
+#### Hunter
+
+#### Merchant
+
+#### Minstrel
+
+#### Miner
+
+#### Mummer
+
+#### Noble
+
+#### Historian
+
+#### Priest
+
+#### Ruffian
+
+#### Sailor
+
+#### Smith
+
+#### Traveller
+
+#### Quarter Master
+
+#### Woodsman
 
 ## Rolling
 
@@ -211,8 +313,7 @@ the roll.
 
 ### Moves
 
-Whenever everyone looks to you to see what happens or the rules say,
-choose a move.
+Whenever everyone looks to the gM to see what happens or the rules say, they choose a move.
 
 A **soft move** is one without immediate, irrevocable consequences.
 That usually means it's something not all that bad, like revealing that
@@ -272,15 +373,13 @@ NPCs can help each other in the same way as player characters. Letting NPCs act 
 
 Sometimes, rolling a success isn’t enough to succeed with your skill roll. In some cases, you must beat your opponent in an opposed roll. To win an opposed roll, you must roll more successes than your adversary. Every success rolled by your adversary eliminates one of your successes. Only you (the active party) can push your roll – and you can decide to do so even after your opponent rolls.
 
-### Frustrated Rolls
+### Aggravated Rolls
 
-Sometimes actions are more than just difficult: they require willpower to push them over the line and succeed. These are frustrated rolls. With a frustrated roll all [banes](#banes) are active on the first roll, as though you had [pushed](#pushing).
+Sometimes actions are more than just difficult: they require willpower to push them over the line and succeed. These are frustrated rolls. With an aggravated roll all [banes](#banes) are active on the first roll, as though you had [pushed](#pushing).
 
-Additionally, you can incur [critical injuries](#critical-injuries) when you're [broken](#broken) by a frustrated roll. You can also push frustrated rolls.
+Additionally, you can incur [critical injuries](#critical-injuries) when you're [broken](#broken) by an aggravated roll. You can still push aggravated rolls.
 
-The rules will tell you when a roll is frustrated. Typically this is when you're using magic.
-
-## Time
+The rules will tell you when a roll is aggravated. Typically this is when you're using magic.
 
 ## Combat
 
@@ -431,105 +530,107 @@ is reduced to zero, and a mental critical injury when your
 
 You cannot gain critical injuries when you're broken by [pushing a roll](#pushing).
 
+Critical injuries are are as much mechanical as they are narrative, and should be roleplayed.
+
 When you suffer a critical injury, roll on the relevant table below to
 see what it is.
 
 #### Physical Critical Injuries
 
-| D66 | INJURY              | EFFECTS     |
-| --- | ------------------- | ----------- |
-| 11  | Winded              | None.       |
-| 12  | Stunned             | None.       |
-| 13  | Crippling pain      | None.       |
-| 14  | Sprained ankle      | -1 Physical |
-| 15  | Blood in eyes       | -1 Physical |
-| 16  | Concussion          | -1 Physical |
-| 21  | Severed ear         | -1 Physical |
-| 22  | Broken toes         | -1 Physical |
-| 23  | Broken hand         | -2 Physical |
-| 24  | Knocked out teeth   | -1 Social   |
-| 25  | Impaled thigh       | -2 Physical |
-| 26  | Slashed shoulder    | -2 Physical |
-| 31  | Broken nose         | -1 Physical |
-| 32  | Crotch hit          | -1 Physical |
-| 33  | Broken ribs         | -2 Physical |
-| 34  | Gouged eye          | -2 Physical |
-| 35  | Busted kneecap      | -2 Physical |
-| 36  | Broken arm          | -3 Physical |
-| 41  | Broken leg          | -3 Physical |
-| 42  | Crushed foot        | -3 Physical |
-| 43  | Crushed elbow       | -3 Physical |
-| 44  | Punctured lung      | -3 Physical |
-| 45  | Bleeding gut        | -3 Physical |
-| 46  | Ruptured intestines | -3 Physical |
-| 51  | Busted kidney       | -3 Physical |
-| 52  | Severed arm artery  | -3 Physical |
-| 53  | Severed leg artery  | -3 Physical |
-| 54  | Severed arm         | -3 Physical |
-| 55  | Severed leg         | -3 Physical |
-| 56  | Cracked spine       | Paralysis?  |
-| 61  | Ruptured jugular    | Stamina −1. |
-| 62  | Ruptured aorta      | Stamina −2. |
-| 63  | Disemboweled        | Death       |
-| 64  | Crushed skull       | Death       |
-| 65  | Pierced head        | Death       |
-| 66  | Impaled heart       | Death       |
+| D66  | INJURY              | EFFECTS     |
+| ---- | ------------------- | ----------- |
+| 11   | Winded              | -1 Physical |
+| 12   | Stunned             | -1 Physical |
+| 13   | Crippling pain      | -1 Physical |
+| 14   | Sprained ankle      | -1 Physical |
+| 15   | Blood in eyes       | -1 Physical |
+| 16   | Concussion          | -1 Physical |
+| 21   | Severed ear         | -1 Physical |
+| 22   | Broken toes         | -1 Physical |
+| 23   | Broken hand         | -2 Physical |
+| 24   | Knocked out teeth   | -1 Social   |
+| 25   | Impaled thigh       | -2 Physical |
+| 26   | Slashed shoulder    | -2 Physical |
+| 31   | Broken nose         | -1 Physical |
+| 32   | Crotch hit          | -1 Physical |
+| 33   | Broken ribs         | -2 Physical |
+| 34   | Gouged eye          | -2 Physical |
+| 35   | Busted kneecap      | -2 Physical |
+| 36   | Broken arm          | -3 Physical |
+| 41   | Broken leg          | -3 Physical |
+| 42   | Crushed foot        | -3 Physical |
+| 43   | Crushed elbow       | -3 Physical |
+| 44   | Punctured lung      | -3 Physical |
+| 45   | Bleeding gut        | -3 Physical |
+| 46   | Ruptured intestines | -3 Physical |
+| 51   | Busted kidney       | -3 Physical |
+| 52   | Severed arm artery  | -3 Physical |
+| 53   | Severed leg artery  | -3 Physical |
+| 54   | Severed arm         | -3 Physical |
+| 55   | Severed leg         | -3 Physical |
+| 56   | Cracked spine       | Paralysis   |
+| 61   | Ruptured jugular    | Stamina −1  |
+| 62   | Ruptured aorta      | Stamina −2  |
+| 63   | Disemboweled        | Death       |
+| 64   | Crushed skull       | Death       |
+| 65   | Pierced head        | Death       |
+| 66   | Impaled heart       | Death       |
 
 #### Mental Critical Injuries
 
-| D66   | TRAUMA                | EFFECTS                                                                                                                                                                                          |
-| ----- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 11-16 | Trembling             | Modifier −1 on all Agility-based rolls.                                                                                                                                                          |
-| 21    | White hair            | None.                                                                                                                                                                                            |
-| 22-24 | Anxious               | Modifier −1 on all Wits-based rolls.                                                                                                                                                             |
-| 25–31 | Sullen                | Modifier −1 on all Empathy-based rolls.                                                                                                                                                          |
-| 32-35 | Nightmares            | Make an Insight roll every shift spent sleeping. Failure means that the sleep doesn’t count.                                                                                                     |
-| 36–41 | Nocturnal             | You can only sleep during the light part of the day.                                                                                                                                             |
-| 42-43 | Phobic                | You are terrified by something related to what broke you. The GM decides what it is. You suffer one point of stress / damage to Wits each round within Short range of the object of your phobia. |
-| 44-45 | Alcoholic             | You must drink alcohol every day, or suffer one point of stress / damage to Agility.                                                                                                             |
-| 46-51 | Claustrophobic        | Every stretch in a confined environment, you suffer one point of stress / damage to Wits.                                                                                                        |
-| 52    | Mythomaniac           | You cannot stop yourself from lying about everything. The effect needs to be roleplayed.                                                                                                         |
-| 53-54 | Paranoia              | You are certain that someone is out to get you. The effect needs to be roleplayed.                                                                                                               |
-| 55    | Delusion              | You are totally convinced of something that is totally untrue, for example that a certain color or item doesn’t exist.                                                                           |
-| 56    | Hallucinations        | Make an Insight roll every shift. If you fail, you suffer a powerful hallucination. The GM deter- mines the details.                                                                             |
-| 61-62 | Altered person- ality | Your personality is altered in a fundamental way. Determine how together with the GM. The effect should be roleplayed.                                                                           |
-| 63    | Amnesia               | You lose all memory, and cannot recollect who you or the other PCs are. The effect should be roleplayed.                                                                                         |
-| 64-65 | Catatonic             | You stare blankly into oblivion, and do not respond to any stimuli.                                                                                                                              |
-| 66    | Heart attack          | Your heart stops, and you die of pure fright.                                                                                                                                                    |
+| D66   | TRAUMA         | EFFECTS     |
+| ----- | -------------- | ----------- |
+| 11-16 | Trembling      | -1 Physical |
+| 21    | Tick           | -1 Mental   |
+| 22-24 | Anxious        | -1 Mental   |
+| 25–31 | Sullen         | -1 Mental   |
+| 32-35 | Selfish        | -1 Mental   |
+| 36–41 | Despair        | -2 Mental   |
+| 42-43 | Panic          | -2 Mental   |
+| 44-45 | Fearful        | -2 Mental   |
+| 46-51 | Paranoia       | -2 Mental   |
+| 52    | Mania          | -2 Mental   |
+| 53-54 | Delusional     | -2 Mental   |
+| 55    | Traumatised    | -3 Mental   |
+| 56    | Hallucinations | -3 Mental   |
+| 61-62 | Unstable       | -3 Mental   |
+| 63    | Amnesia        | -3 Mental   |
+| 64-65 | Catatonic      | Paralysis   |
+| 66    | Heart attack   | Death       |
 
 ### Recovery
 
 Being broken is not fatal in itself – only [critical injuries](#critical-injuries) can actually kill you. There are two ways to recover after being broken, assuming you’re not dead.
 
-- GETTING HELP: Someone can help you recover by using Empathy. This is a slow action. If the roll is successful, you immediately heal damage or stress equal to the number of successes rolled. Getting help only has this effect on a broken victim.
-- ON YOUR OWN: If no one is around to help you, you automatically heal one point of damage or stress after one Shift has passed.
-- NOT BROKEN? If you are not broken, you heal one point of damage or stress per [shift](#time). You can heal damage and stress at the same time.
+- GETTING HELP: Someone can help you recover by using EMPATHY. This is a slow action. If the roll is successful, you immediately heal damage or stress equal to the number of successes rolled. Getting help only has this effect on a broken victim.
+- ON YOUR OWN: If no one is around to help you, you automatically heal one point of damage or stress after one quarter day has passed.
+- NOT BROKEN? If you are not broken, you heal one point of [Health](#health) or [Resolve](#resolve) per quarter day. You can heal damage and stress at the same time.
 
 ## Equipment
 
 ### Weapons
 
-| Weapon           | Price | Grip | Bonus | Damage | Range   |
-| ---------------- | ----- | ---- | ----- | ------ | ------- |
-| Unarmed          |       | —    | —     | 1      | Engaged |
-| Blunt instrument |       | 1H   | +2    | 2      | Engaged |
-| Knife            |       | 1H   | +2    | 3      | Engaged |
-| Club             |       | 1H   | +3    | 2      | Engaged |
-| Sword            |       | 1H   | +3    | 3      | Engaged |
-| Battleaxe        |       | 2H   | +3    | 3      | Engaged |
-| Spear            |       | 1H   | +2    | 2      | Short   |
-| Rock             |       | 1H   | —     | 2      | Medium  |
-| Sling            |       | 1H   | +1    | 2      | Medium  |
-| Bow              |       | 2H   | +2    | 2      | Long    |
-| Pistol           |       | 1H   | +2    | 3      | Medium  |
-| Rifle            |       | 2H   | +3    | 3      | Long    |
+| Weapon           | Bonus | Damage | Range   |
+| ---------------- | ----- | ------ | ------- |
+| Unarmed          | —     | 1      | Engaged |
+| Blunt instrument | +2    | 2      | Engaged |
+| Knife            | +2    | 3      | Engaged |
+| Club             | +3    | 2      | Engaged |
+| Sword            | +3    | 3      | Engaged |
+| Battleaxe        | +3    | 3      | Engaged |
+| Spear            | +2    | 2      | Short   |
+| Rock             | —     | 2      | Medium  |
+| Sling            | +1    | 2      | Medium  |
+| Bow              | +2    | 2      | Long    |
+| Pistol           | +2    | 3      | Medium  |
 
 ### Arcane Tools
 
-| Item         | Price    | Bonus | Effect                               |
-| ------------ | -------- | ----- | ------------------------------------ |
-| Libre Noctus | 20 GOLD  | 2     | Improves [necromancy](#necromancer). |
-| Necronomicon | 100 GOLD | 3     | Improves [necromancy](#necromancer). |
+| Item            | Price    | Effect                         |
+| --------------- | -------- | ------------------------------ |
+| Dead man's hand | 10 GOLD  | +1 [Necromancy](#necromancer). |
+| Libre Noctus    | 20 GOLD  | +2 [Necromancy](#necromancer). |
+| Necronomicon    | 100 GOLD | +3 [Necromancy](#necromancer). |
 
 ## Appendices
 
