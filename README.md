@@ -394,46 +394,46 @@ see what it is.
 
 #### Physical Critical Injuries
 
-| D66  | INJURY               | EFFECTS     |
-| ---- | -------------------- | ----------- |
-| 11   | Winded               | -1 Physical |
-| 12   | Stunned              | -1 Physical |
-| 13   | Crippling pain       | -1 Physical |
-| 14   | Sprained ankle       | -1 Physical |
-| 15   | Blood in eyes        | -1 Physical |
-| 16   | Concussion           | -1 Physical |
-| 21   | Severed ear          | -1 Physical |
-| 22   | Broken toes          | -1 Physical |
-| 23   | Broken hand          | -2 Physical |
-| 24   | Knocked out teeth    | -1 Social   |
-| 25   | Impaled thigh        | -2 Physical |
-| 26   | Slashed shoulder     | -2 Physical |
-| 31   | Broken nose          | -1 Physical |
-| 32   | Crotch hit           | -1 Physical |
-| 33   | Broken ribs          | -2 Physical |
-| 34   | Gouged eye           | -2 Physical |
-| 35   | Busted kneecap       | -2 Physical |
-| 36   | Broken arm           | -3 Physical |
-| 41   | Broken leg           | -3 Physical |
-| 42   | Crushed foot         | -3 Physical |
-| 43   | Crushed elbow        | -3 Physical |
-| 44   | Punctured lung*      | -3 Physical |
-| 45   | Bleeding gut*        | -3 Physical |
-| 46   | Ruptured intestines* | -3 Physical |
-| 51   | Busted kidney*       | -3 Physical |
-| 52   | Severed arm artery*  | -3 Physical |
-| 53   | Severed leg artery*  | -3 Physical |
-| 54   | Severed arm*         | -3 Physical |
-| 55   | Severed leg*         | -3 Physical |
-| 56   | Cracked spine*       | Paralysis   |
-| 61   | Ruptured jugular*    | Stamina −1  |
-| 62   | Ruptured aorta*      | Stamina −2  |
-| 63   | Disembowelled        | Death       |
-| 64   | Crushed skull        | Death       |
-| 65   | Pierced head         | Death       |
-| 66   | Impaled heart        | Death       |
+| D66 | INJURY                | EFFECTS     |
+| --- | --------------------- | ----------- |
+| 11  | Winded                | -1 Physical |
+| 12  | Stunned               | -1 Physical |
+| 13  | Crippling pain        | -1 Physical |
+| 14  | Sprained ankle        | -1 Physical |
+| 15  | Blood in eyes         | -1 Physical |
+| 16  | Concussion            | -1 Physical |
+| 21  | Severed ear           | -1 Physical |
+| 22  | Broken toes           | -1 Physical |
+| 23  | Broken hand           | -2 Physical |
+| 24  | Knocked out teeth     | -1 Social   |
+| 25  | Impaled thigh         | -2 Physical |
+| 26  | Slashed shoulder      | -2 Physical |
+| 31  | Broken nose           | -1 Physical |
+| 32  | Crotch hit            | -1 Physical |
+| 33  | Broken ribs           | -2 Physical |
+| 34  | Gouged eye            | -2 Physical |
+| 35  | Busted kneecap        | -2 Physical |
+| 36  | Broken arm            | -3 Physical |
+| 41  | Broken leg            | -3 Physical |
+| 42  | Crushed foot          | -3 Physical |
+| 43  | Crushed elbow         | -3 Physical |
+| 44  | Punctured lung\*      | -3 Physical |
+| 45  | Bleeding gut\*        | -3 Physical |
+| 46  | Ruptured intestines\* | -3 Physical |
+| 51  | Busted kidney\*       | -3 Physical |
+| 52  | Severed arm artery\*  | -3 Physical |
+| 53  | Severed leg artery\*  | -3 Physical |
+| 54  | Severed arm\*         | -3 Physical |
+| 55  | Severed leg\*         | -3 Physical |
+| 56  | Cracked spine\*       | Paralysis   |
+| 61  | Ruptured jugular\*    | Stamina −1  |
+| 62  | Ruptured aorta\*      | Stamina −2  |
+| 63  | Disembowelled         | Death       |
+| 64  | Crushed skull         | Death       |
+| 65  | Pierced head          | Death       |
+| 66  | Impaled heart         | Death       |
 
-*\*Potentially lethal critical injuries. Roll for Stamina. If you fail, you die.* 
+_\*Potentially lethal critical injuries. Roll for Stamina. If you fail, you die._
 
 #### Mental Critical Injuries
 
@@ -476,14 +476,14 @@ Being broken is not fatal in itself – only [critical injuries](#critical-injur
 | Knife            | +2    | 3      | Engaged |
 | Club             | +3    | 2      | Engaged |
 | Sword            | +3    | 3      | Engaged |
-| Battleaxe*       | +3    | 3      | Engaged |
+| Battleaxe\*      | +3    | 3      | Engaged |
 | Spear            | +2    | 2      | Short   |
 | Rock             | —     | 2      | Medium  |
 | Sling            | +1    | 2      | Medium  |
-| Bow*             | +2    | 2      | Long    |
+| Bow\*            | +2    | 2      | Long    |
 | Pistol           | +2    | 3      | Medium  |
 
-*\*Requires two hands to wield.*
+_\*Requires two hands to wield._
 
 ### Arcane Tools
 
@@ -540,7 +540,7 @@ Your maximum [Health](#health) score is increased by 1 per the level of this tal
 
 #### Insightful
 
-You gain a bonus equal to the level of this talent to EMPATHY rolls to read other people and see through lies. 
+You gain a bonus equal to the level of this talent to EMPATHY rolls to read other people and see through lies.
 
 #### Persuasive
 
@@ -563,7 +563,7 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 
 #### Channel
 
-You can use EMPATH to sense, summon and control spirits, such as  angels, demons and...
+You can use EMPATH to sense, summon and control spirits, such as angels, demons and...
 
 #### Elementalist
 
@@ -604,7 +604,7 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 
 #### Carpenter
 
-#### Cook                                                                                                                                                                                                                                                                  
+#### Cook
 
 #### Diplomat
 
