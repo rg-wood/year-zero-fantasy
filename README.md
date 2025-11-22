@@ -378,6 +378,14 @@ Your PC can be broken by [damage or stress](#damage-and-stress). You are broken 
 
 You can't go below zero in [Health](#health) or [Resolve](#resolve). If you suffer further damage, you may suffer an additional [critical injury](#critical-injuries) however.
 
+### Recovery
+
+Being broken is not fatal in itself – only [critical injuries](#critical-injuries) can actually kill you. There are two ways to recover after being broken, assuming you’re not dead.
+
+- GETTING HELP: Someone can help you recover by using EMPATHY. This is a slow action. If the roll is successful, you immediately heal damage or stress equal to the number of successes rolled. Getting help only has this effect on a broken victim.
+- ON YOUR OWN: If no one is around to help you, you automatically heal one point of damage or stress after one quarter day has passed.
+- NOT BROKEN? If you are not broken, you heal one point of [Health](#health) or [Resolve](#resolve) per quarter day. You can heal damage and stress at the same time.
+
 ### Critical Injuries
 
 Critical injuries are dangerous, even lethal, injuries to your body or
@@ -391,6 +399,16 @@ Critical injuries are are as much mechanical as they are narrative, and should b
 
 When you suffer a critical injury, roll on the relevant table below to
 see what it is.
+
+#### Recovering from Critical Injuries
+
+Each critical injury has a specific effect that you suffer for a number of days equal to the first roll (i.e. 5 days if you roll 54 on a D66). If you have several crits, they will heal simultaneously. If an injury is listed as permanent, it will never heal.
+
+MODIFIERS: Modifiers due to critical injuries are cumulative.
+
+CARE: If someone tends to you for a quarter day during the process of healing a critical injury and makes a EMPATHY roll, that day counts double.
+
+DAMAGE: Note that you can heal all of your [damage or stress](#damage-and-stress), but still suffer the effects of a critical injury.
 
 #### Physical Critical Injuries
 
@@ -423,8 +441,8 @@ see what it is.
 | 51  | Busted kidney\*       | -3 Physical |
 | 52  | Severed arm artery\*  | -3 Physical |
 | 53  | Severed leg artery\*  | -3 Physical |
-| 54  | Severed arm\*         | -3 Physical |
-| 55  | Severed leg\*         | -3 Physical |
+| 54  | Severed arm\*†        | -3 Physical |
+| 55  | Severed leg\*†        | -3 Physical |
 | 56  | Cracked spine\*       | Paralysis   |
 | 61  | Ruptured jugular\*    | Stamina −1  |
 | 62  | Ruptured aorta\*      | Stamina −2  |
@@ -434,6 +452,8 @@ see what it is.
 | 66  | Impaled heart         | Death       |
 
 _\*Potentially lethal critical injuries. Roll for Stamina. If you fail, you die._
+
+_†Permanent injury, cannot be [recovered](#recovering-from-critical-injuries)._
 
 #### Mental Critical Injuries
 
@@ -450,20 +470,14 @@ _\*Potentially lethal critical injuries. Roll for Stamina. If you fail, you die.
 | 46-51 | Paranoid       | -2 Mental   |
 | 52    | Mania          | -2 Mental   |
 | 53-54 | Delusional     | -2 Mental   |
-| 55    | Traumatised    | -3 Mental   |
+| 55    | Traumatised\*  | -3 Mental   |
 | 56    | Hallucinations | -3 Mental   |
 | 61-62 | Violent        | -3 Mental   |
 | 63    | Amnesia        | -3 Mental   |
 | 64-65 | Catatonic      | Paralysis   |
 | 66    | Heart attack   | Death       |
 
-### Recovery
-
-Being broken is not fatal in itself – only [critical injuries](#critical-injuries) can actually kill you. There are two ways to recover after being broken, assuming you’re not dead.
-
-- GETTING HELP: Someone can help you recover by using EMPATHY. This is a slow action. If the roll is successful, you immediately heal damage or stress equal to the number of successes rolled. Getting help only has this effect on a broken victim.
-- ON YOUR OWN: If no one is around to help you, you automatically heal one point of damage or stress after one quarter day has passed.
-- NOT BROKEN? If you are not broken, you heal one point of [Health](#health) or [Resolve](#resolve) per quarter day. You can heal damage and stress at the same time.
+_\*Permanent injury, cannot be [recovered](#recovering-from-critical-injuries)._
 
 ## Equipment
 
@@ -565,6 +579,10 @@ Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are
 
 You can use EMPATH to sense, summon and control spirits, such as angels, demons and...
 
+#### Darkvision
+
+You gain a bonus equal to the level of this talent to these rolls to use WITS to observe in low-light and darkness.
+
 #### Elementalist
 
 #### Healing
@@ -580,7 +598,11 @@ As a [slow action](#slow-actions) you can use WITS to deal a [critical injury](#
 Assume the first roll on the d66 you would normally roll for a critical injury is 1, and roll a 1d6 for the second roll. Each additional success increases the first roll by 1, up to a maximum of 6. For example, if you had 2 successes and rolled a 3, you would inflict the injury listed under 23 on the injury table.
 
 Some [equipment](#equipment) can give you [Gear
-Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls).
+Dice](#gear-dice) that can be added to the roll. Rolls involving this talent are [aggravated](#aggravated-rolls), and are typically [opposed](#opposed-rolls).
+
+#### Memory of Ages
+
+You have live a hundred lifetimes, and can plumb the depths of your centuries-long memories. However, you risk reliving past traumas. You can push WITS rolls related to any kinds of lore (history, religion, etc.) twice, not just once like other characters. You gain a bonus equal to the level of this talent to these rolls.
 
 #### Necromancer
 
